@@ -6,11 +6,11 @@ module.exports = {
   output: {
     path: resolve(__dirname, 'dist'),
     filename: 'hello-world.js',
-    library: 'hello'
+    library: 'hello-world'
   },
   plugins: [
     new UglifyJsPlugin({
-        exclude: [/\.min\.js$/gi] // skip pre-minified libs
+      exclude: [/\.min\.js$/gi]
     })
   ]
 }

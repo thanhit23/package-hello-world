@@ -1,14 +1,14 @@
 {
   "name": "hello",
   "version": "1.0.0",
-  "description": "hello world",
+  "description": "display text hello world",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node_modules/webpack/bin/webpack.js --mode production --watch --progress --hide-modules",
     "build": "node_modules/webpack/bin/webpack.js --mode production --progress --hide-modules"
   },
-  "author": "",
+  "author": "THANH",
   "license": "ISC",
   "repository": {
     "type": "git",
